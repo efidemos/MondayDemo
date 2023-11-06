@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "MondayDemo"
+  description: "A demo on Monday"
+  annotations:
+    github.com/project-slug: efidemos/MondayDemo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: repository
+  lifecycle: experimental
+  owner: "group:default/andy"
